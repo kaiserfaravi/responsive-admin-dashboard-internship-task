@@ -1,8 +1,7 @@
-# React + Vite
+# Hello Dear Xentro team
+## Run the application smoothly using the above commands.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## The live site link is provided in the repository.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Kindly confirm if  accepted or rejected.
+### live Site: https://fir-test-1-6643a.web.app/user

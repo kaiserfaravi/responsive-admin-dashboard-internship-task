@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const SingleProuducts = ({productdata}) => {
-    console.log(productdata);
+    // console.log(productdata);
     
     const {name,id,data} = productdata;
     return (

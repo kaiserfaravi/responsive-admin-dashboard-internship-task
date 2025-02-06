@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Singleuser = ({data}) => {
-    console.log(data);
+    // console.log(data);
     const {id,name,address,email} = data;
     return (
         <div className="card bg-base-100  shadow-xl">
