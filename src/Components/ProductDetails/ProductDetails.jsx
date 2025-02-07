@@ -4,6 +4,7 @@ import { NavLink, useLoaderData } from 'react-router-dom';
 const ProductDetails = () => {
     const details =useLoaderData()
     const {name,data}=details;
+    // console.log("checking");
     return (
         <div>
             <div className="card  w-1/2 mx-auto my-5 bg-base-100 shadow-xl">
