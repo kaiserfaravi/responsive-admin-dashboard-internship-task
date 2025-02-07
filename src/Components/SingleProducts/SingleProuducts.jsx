@@ -11,10 +11,12 @@ const SingleProuducts = ({productdata}) => {
         <h2 className="card-title">Name: {name} </h2>
         <p> Color : {data?.color?data.color:"Not Found"} </p>
         <p> Capacity : {data?.capacity?data.capacity:"Not Found"} </p>
-        <div className="card-actions ">
-          <button className="btn w-full btn-primary">
-            <NavLink to={`/product/${id}`}>product Details</NavLink>
-          </button>
+        <div className="flex justify-between ">
+          
+            <NavLink className="  w-full bg-lime-600 p-1 text-center text-white font-semibold rounded-lg" to={`/product/${id}`}>Details</NavLink>
+            <NavLink className=" w-full bg-lime-600 p-1 mx-2 text-center text-white font-semibold rounded-lg" to={`/product/${id}`}>Add </NavLink>
+            <NavLink className=" w-full bg-lime-600 p-1 text-center text-white font-semibold rounded-lg" to={`/product/${id}`}>Delete </NavLink>
+          
         </div>
       </div>
     </div>

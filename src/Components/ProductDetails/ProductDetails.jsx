@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { NavLink, useLoaderData } from 'react-router-dom';
 
 const ProductDetails = () => {
     const details =useLoaderData()
@@ -11,6 +11,7 @@ const ProductDetails = () => {
     <p className='font-semibold'>Phone Name: {name}</p>
     <p> Color : {data?.color?data.color:"Not Found"} </p>
     <p> Capacity : {data?.capacity?data.capacity:"Not Found"} </p>
+    <NavLink className='bg-teal-500 text-white w-1/4 mx-auto rounded-lg' to={'/product'}>Back to Home</NavLink>
   </div>
 </div>
             

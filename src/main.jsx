@@ -8,7 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Root from './Components/Root/Root.jsx';
-import Home from './Components/Home/Home.jsx';
+// import Home from './Components/Home/Home.jsx';
 import User from './Components/User/User.jsx';
 import Product from './Components/Product/Product.jsx';
 import UserDetails from './Components/UserDetails/UserDetails.jsx';
@@ -22,7 +22,6 @@ const router = createBrowserRouter([
       {
         path:'',
         element:<Navigate to={'/user'}></Navigate>
-
       },
       {
         path:'/user',

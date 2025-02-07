@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { NavLink, useLoaderData } from 'react-router-dom';
 
 const UserDetails = () => {
     const user = useLoaderData();
@@ -12,7 +12,9 @@ const UserDetails = () => {
     <p className='font-semibold'>Name: {name}</p>
    <p> Email:{email} </p>
    <p>City: {address.city} </p>
+   <NavLink className='bg-teal-500 text-white w-1/4 mx-auto rounded-lg' to={'/'}>Back to Home</NavLink>
   </div>
+  
 </div>
         </div>
     );

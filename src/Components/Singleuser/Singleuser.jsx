@@ -10,10 +10,12 @@ const Singleuser = ({data}) => {
     <h2 className="card-title">Name: {name} </h2>
     <p>Email : {email} </p>
     <p>City Name: {address.city} </p>
-    <div className="card-actions ">
-      <button className="btn w-full btn-primary">
-        <NavLink to={`/data/${id}`}>User Details</NavLink>
-      </button>
+    <div className="flex justify-between">
+      
+        <NavLink className=" w-full bg-lime-600 p-1 text-center text-white font-semibold rounded-lg" to={`/data/${id}`}> Details</NavLink>
+        <NavLink className=" w-full bg-lime-600 p-1 mx-2 text-center text-white font-semibold rounded-lg" to={`/data/${id}`}>Update </NavLink>
+        <NavLink className=" w-full bg-lime-600 p-1 text-center text-white font-semibold rounded-lg" to={`/data/${id}`}>Delete</NavLink>
+      
     </div>
   </div>
 </div>
