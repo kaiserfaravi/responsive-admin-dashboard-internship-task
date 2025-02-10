@@ -13,8 +13,8 @@ const Singleuser = ({data}) => {
     <div className="flex justify-between">
       
         <NavLink className=" w-full bg-lime-600 p-1 text-center text-white font-semibold rounded-lg" to={`/data/${id}`}> Details</NavLink>
-        <NavLink className=" w-full bg-lime-600 p-1 mx-2 text-center text-white font-semibold rounded-lg" to={`/data/${id}`}>Update </NavLink>
-        <NavLink className=" w-full bg-lime-600 p-1 text-center text-white font-semibold rounded-lg" to={`/data/${id}`}>Delete</NavLink>
+        <NavLink className=" w-full bg-lime-600 p-1 mx-2 text-center text-white font-semibold rounded-lg" to={`/addUser`}>Add </NavLink>
+        {/* <NavLink className=" w-full bg-lime-600 p-1 text-center text-white font-semibold rounded-lg" to={`/data/${id}`}>Delete</NavLink> */}
       
     </div>
   </div>

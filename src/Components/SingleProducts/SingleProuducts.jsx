@@ -14,8 +14,8 @@ const SingleProuducts = ({productdata}) => {
         <div className="flex justify-between ">
           
             <NavLink className="  w-full bg-lime-600 p-1 text-center text-white font-semibold rounded-lg" to={`/product/${id}`}>Details</NavLink>
-            <NavLink className=" w-full bg-lime-600 p-1 mx-2 text-center text-white font-semibold rounded-lg" to={`/product/${id}`}>Add </NavLink>
-            <NavLink className=" w-full bg-lime-600 p-1 text-center text-white font-semibold rounded-lg" to={`/product/${id}`}>Delete </NavLink>
+            {/* <NavLink className=" w-full bg-lime-600 p-1 mx-2 text-center text-white font-semibold rounded-lg" to={`/product/${id}`}>Add </NavLink>
+            <NavLink className=" w-full bg-lime-600 p-1 text-center text-white font-semibold rounded-lg" to={`/product/${id}`}>Delete </NavLink> */}
           
         </div>
       </div>

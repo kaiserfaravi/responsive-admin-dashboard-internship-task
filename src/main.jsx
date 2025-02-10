@@ -13,6 +13,7 @@ import User from './Components/User/User.jsx';
 import Product from './Components/Product/Product.jsx';
 import UserDetails from './Components/UserDetails/UserDetails.jsx';
 import ProductDetails from './Components/ProductDetails/ProductDetails.jsx';
+import AddUser from './Components/AddUser/AddUser.jsx';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,11 @@ const router = createBrowserRouter([
         path:'/product/:productId',
         element:<ProductDetails></ProductDetails>,
         loader:({params})=>fetch(`https://api.restful-api.dev/objects/1${params.productId}`)
+      },
+      {
+        path:'/addUser',
+        element:<AddUser></AddUser>,
+        // jijiju
       }
     ]
   },

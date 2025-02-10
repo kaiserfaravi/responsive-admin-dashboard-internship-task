@@ -5,7 +5,9 @@ import auth from '../../firebase/firebase.configue';
 
 const link = <>
 <li className='mr-8'><NavLink to='/user'> Users </NavLink></li>
+{/* <li className='space-x-2' ><NavLink to='/product' > Add  users </NavLink></li> */}
 <li className='space-x-2' ><NavLink to='/product' > Product </NavLink></li>
+{/* <li className='space-x-2' ><NavLink to='/product' > Add Product </NavLink></li> */}
 </>
 
 const Navbar = () => {
